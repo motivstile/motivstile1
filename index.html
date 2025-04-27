@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Путь к Силе: Удары, Масса, Питание</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+<header>
+    <h1>Стань Машиной!</h1>
+    <p>Тренировки, питание, удары - всё здесь</p>
+</header>
+
+<nav>
+    <button onclick="showSection('strength')">Тренировки на силу</button>
+    <button onclick="showSection('strike')">Удары</button>
+    <button onclick="showSection('nutrition')">Питание</button>
+    <button onclick="showSection('recipes')">Коктейли</button>
+    <button onclick="showSection('videos')">Видео</button>
+</nav>
+
+<main>
+
+    <section id="strength" class="content-section">
+        <h2>Тренировки на силу</h2>
+        <img src="ChatGPT Image 27 апр. 2025 г., 13_38_49.png" alt="Сила тренировки">
+        <p>Программа включает: приседания, отжимания с весом, подтягивания. Регулярная нагрузка увеличивает массу и силу!</p>
+    </section>
+
+    <section id="strike" class="content-section">
+        <h2>Удары руками и ногами</h2>
+        <img src="ChatGPT Image 27 апр. 2025 г., 13_41_56.png" alt="Удары руками и ногами">
+        <p>Прокачка скорости и техники: тень-бокс, удары по мешку, прыжковые тренировки на взрывную силу.</p>
+    </section>
+
+    <section id="nutrition" class="content-section">
+        <h2>Питание для роста</h2>
+        <img src="ChatGPT Image 27 апр. 2025 г., 13_42_32.png" alt="Питание">
+        <p>Ешь много и правильно: мясо, яйца, гречка, овсянка, орехи. Пей много воды. Питай мышцы, а не жир!</p>
+    </section>
+
+    <section id="recipes" class="content-section">
+        <h2>Коктейли для массы</h2>
+        <img src="ChatGPT Image 27 апр. 2025 г., 13_42_50.png" alt="Коктейли">
+        <button onclick="showRecipes()">Показать рецепты</button>
+        <div id="recipe-list" style="display: none;">
+            <ul>
+                <li><b>Гейнер-домашний:</b> молоко, банан, овсянка, мёд.</li>
+                <li><b>Белковый микс:</b> кефир, творог, ягоды, протеин.</li>
+                <li><b>Калорийный бум:</b> арахисовая паста, молоко, банан, овсянка.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="videos" class="content-section">
+        <h2>Видео упражнений</h2>
+        <div class="videos">
+            <iframe width="914" height="514" src="https://www.youtube.com/embed/H21pTB9nJ7I" title="ПРОКАЧАЙ НОГИ ЗА 6 МИНУТ (ТРЕНИРОВКА ДОМА)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="914" height="514" src="https://www.youtube.com/embed/v2ruAhNGiUE" title="СУПЕР ПРЕСС ЗА 7 МИНУТ В ДЕНЬ В 2020 (ГАРАНТИРОВАННО)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <!-- <iframe width="300" height="200" src="https://youtu.be/v2ruAhNGiUE" frameborder="0" allowfullscreen></iframe> -->
+            <!-- <iframe width="300" height="200" src="https://youtu.be/H21pTB9nJ7I" frameborder="0" allowfullscreen></iframe> -->
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <p>Стань лутчший версии себя © 2025</p>
+</footer>
+
+</body>
+</html>
